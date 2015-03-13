@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">OA办公系统</string>
+
+    <!-- 左菜单 -->
+    <string name="leftmenu_notice">通知公告</string>
+    <string name="leftmenu_member_manager">用户管理</string>
+    <string name="leftmenu_daily_log">工作日志</string>
+    <string name="leftmenu_leave">请假申请</string>
+    <string name="leftmenu_reimbursement">报销费用</string>
+    <string name="leftmenu_setting">设置</string>
+    <string name="error_net">网络未连接</string>
+    <string name="logout">注销登录</string>
+
+    <!-- 用户 -->
+    <string name="login_username_hint">帐号/手机号</string>
+    <string name="login_password_hint">密码</string>
+    <string name="forget_pw">忘记密码</string>
+    <string name="remeber_pw">记住密码</string>
+    <string name="login">登　录</string>
+    <string name="login_error">登录失败!</string>
+
+    <string name="emp_no_not_null">帐号不能为空!</string>
+    <string name="emp_pw_not_null">密码不能为空!</string>
+    <string name="login_error_upe">帐号与密码不匹配!</string>
+    <string name="login_error_undefined">帐号与密码不匹配!</string>
+
+    <string name="confirm">确认</string>
+    <string name="cancle">取消</string>
+    <string name="dlg_dft_title">系统提示</string>
+
+    <!-- 同步信息 -->
+    <string name="sync_notice">通知公告加载完毕</string>
+    <!-- 点击查看详情 -->
+    <string name="click_see_detail">[ 点击查看详情 ]</string>
+</resources>

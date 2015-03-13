@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" >
+        <shape>
+            <gradient
+                android:startColor="@color/Red"
+                android:endColor="@color/Snow"
+                android:angle="90.0"
+                />
+        </shape>
+    </item>
+
+    <item
+        android:state_enabled="true"
+        android:state_focused="false" >
+        <shape>
+            <gradient
+                android:startColor="@color/Snow"
+                android:endColor="@color/Snow"
+                android:angle="90.0"
+                />
+        </shape>
+    </item>
+    <item
+        android:state_enabled="false"
+        android:state_focused="true" >
+        <shape>
+            <gradient
+                android:startColor="@color/Snow"
+                android:endColor="@color/Tomato"
+                android:angle="90.0"
+                />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@color/Snow"
+                android:endColor="@color/Snow"
+                android:angle="90.0"
+                />
+        </shape>
+    </item>
+</selector>

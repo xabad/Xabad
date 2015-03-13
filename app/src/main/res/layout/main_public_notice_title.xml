@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_marginTop="5dp" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/main_notice_img"
+        android:background="@drawable/main_notice"
+        android:scaleType="center"
+        android:gravity="center" />
+
+    <ViewFlipper
+        android:id="@+id/flipper_scrollTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_margin="0.0dip"
+        android:layout_weight="1.0"
+        android:flipInterval="5000"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/scrollTile_hd"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/leftmenu_notice" />
+
+        <TextView
+            android:id="@+id/scrollTile_hm"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/leftmenu_daily_log" />
+    </ViewFlipper>
+
+</LinearLayout>

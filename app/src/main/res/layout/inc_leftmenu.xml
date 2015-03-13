@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/PapayaWhip">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/inc_leftmenu_bg">
+
+        <com.lac.xab.ui.CircleImageView
+            android:id="@+id/civ_inc_leftmenu_member_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/member_icon_default"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            app:border_width="1dp"
+            app:border_color="@color/White" />
+        <TextView
+            android:id="@+id/tv_member_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/civ_inc_leftmenu_member_icon"
+            android:layout_marginLeft="30dp"
+            android:layout_centerVertical="true"
+            android:text="@string/logout"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@color/Snow">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Gainsboro" />
+
+        <com.gc.materialdesign.views.LayoutRipple
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:clickable="true"
+            android:background="@color/Snow"
+            android:gravity="center_vertical"
+            app:rippleColor = "@color/MistyRose">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:src="@drawable/inc_leftmenu_item" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:text="@string/leftmenu_notice"
+                android:autoText="false" />
+        </com.gc.materialdesign.views.LayoutRipple>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/Gainsboro" />
+
+        <com.gc.materialdesign.views.LayoutRipple
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:clickable="true"
+            android:background="@color/Snow"
+            android:gravity="center_vertical"
+            app:rippleColor = "@color/MistyRose">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:src="@drawable/inc_leftmenu_item" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:text="@string/leftmenu_member_manager" />
+        </com.gc.materialdesign.views.LayoutRipple>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/Gainsboro" />
+
+        <com.gc.materialdesign.views.LayoutRipple
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:clickable="true"
+            android:background="@color/Snow"
+            android:gravity="center_vertical"
+            app:rippleColor = "@color/MistyRose">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:src="@drawable/inc_leftmenu_item" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:text="@string/leftmenu_daily_log" />
+        </com.gc.materialdesign.views.LayoutRipple>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/Gainsboro" />
+
+        <com.gc.materialdesign.views.LayoutRipple
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:clickable="true"
+            android:background="@color/Snow"
+            android:gravity="center_vertical"
+            app:rippleColor = "@color/MistyRose">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:src="@drawable/inc_leftmenu_item" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:text="@string/leftmenu_leave" />
+        </com.gc.materialdesign.views.LayoutRipple>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/Gainsboro" />
+
+        <com.gc.materialdesign.views.LayoutRipple
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:clickable="true"
+            android:background="@color/Snow"
+            android:gravity="center_vertical"
+            app:rippleColor = "@color/MistyRose">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:src="@drawable/inc_leftmenu_item" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:text="@string/leftmenu_reimbursement" />
+        </com.gc.materialdesign.views.LayoutRipple>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Gainsboro" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@color/Snow">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Gainsboro" />
+
+        <com.gc.materialdesign.views.LayoutRipple
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:clickable="true"
+            android:background="@color/Snow"
+            android:gravity="center_vertical"
+            app:rippleColor = "@color/MistyRose">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:src="@drawable/inc_leftmenu_item" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="50dp"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:text="@string/leftmenu_setting"/>
+        </com.gc.materialdesign.views.LayoutRipple>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/Gainsboro" />
+
+        <com.gc.materialdesign.views.LayoutRipple
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:clickable="true"
+            android:background="@color/Snow"
+            android:gravity="center_vertical"
+            app:rippleColor = "@color/MistyRose"
+            android:id="@+id/lr_logout">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:src="@drawable/inc_leftmenu_item" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:text="@string/logout"/>
+        </com.gc.materialdesign.views.LayoutRipple>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Gainsboro" />
+    </LinearLayout>
+
+</LinearLayout>
